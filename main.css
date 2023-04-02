@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Calibri, Arial, sans-serif;
+}
+nav, .inner {
+    margin: 20px auto;
+    width: 1280px;
+}
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+}
+h1 {
+    position: relative;
+}
+h1:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000000;
+    opacity: .5;
+}
+h1 span {
+    position: relative;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 1280px;
+    display: block;
+}
+footer {
+    margin-top: auto;
+    height: 80px;
+    background: #3e6fa8;
+}
