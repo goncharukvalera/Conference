@@ -4,15 +4,21 @@ body {
 }
 nav, .inner {
     margin: 20px auto;
-    width: 1280px;
+    max-width: 1280px;
 }
 nav a {
     text-decoration: none;
     display: inline-block;
     margin: 15px;
 }
+a.active {
+    color: #b22c2c;
+}
 h1 {
     position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1:before {
     content: '';
@@ -29,8 +35,11 @@ h1 span {
     color: #ffffff;
     margin: 0 auto;
     padding: 50px 0;
-    width: 1280px;
+    max-width: 1280px;
     display: block;
+}
+main {
+    min-height: calc(100vh - 372px);
 }
 footer {
     margin-top: auto;
